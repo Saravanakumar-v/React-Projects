@@ -1,7 +1,7 @@
-# React-projects
+## React-projects
 learning react through building projects
 
---template typescript
+create-react-app app_name --template typescript
 
-## Project 1 - Todo App
-based from https://www.freecodecamp.org/news/build-a-todo-app-from-scratch-with-reactjs/
+### Project 1 - Todo List App
+based on https://www.freecodecamp.org/news/build-a-todo-app-from-scratch-with-reactjs/
