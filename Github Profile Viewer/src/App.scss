@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+  background-color: #0a0c10;
+
+
+  --font : "Be Vietnam Pro", sans-serif;
+  --background : #364153;
+  
+}
+
+.githubProfile-app {
+
+  &_cont1 {
+    background-image: url(./assets/hero-image-github-profile.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 188px;
+  }
+
+  &_cont2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto;
+
+    .repo-list {
+      width: 90%;
+      margin-left: 1rem;
+    }
+  }
+  
+  &_search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    width: 100%;
+
+    .content {
+      display: flex;
+      align-items: center;
+      width: 400px;
+      border: 1px solid white;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: var(--background);
+      border: 0;
+      gap: 5px;
+
+      span {
+        color: #4A5567;
+        font-weight: bold;
+      }
+
+      .profile-search {
+        font-family: var(--font);
+        width: 100%;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        background-color: transparent;
+        border: 0px;
+      }
+
+      .profile-search:focus {
+        outline: 0;
+      }
+    }
+  }
+  
+  &_profile {
+    font-family: var(--font);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .profile {
+      display: flex;
+      align-items: baseline;
+      gap: 5rem;
+      position: relative;
+
+      .profile-dp {
+        border: 3px solid var(--background);
+        // background-color: var(--background);
+        background-color: #0a0c10;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: -25px;
+
+        img {
+          width: 4rem;
+          height: 4rem;
+        }
+      }
+    
+      .profile-info {
+        display: flex;
+        gap: 3rem;
+
+        &_followers,&_following,&_location {
+          display: flex;
+          gap: 10px;
+          padding: 15px;
+          border-radius: 10px;
+          border: 1px solid #7a828e;
+          font-size: 13px;
+          font-weight: 500;
+        }
+      }
+    } 
+
+    .profile-desc {
+      display: flex;
+      flex-direction: column;
+      font-family: var(--font);
+      gap: 10px;
+
+      h1 {
+        margin: 0;
+      }
+    }
+    
+  }
+
+  &_repositoryList {
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+
+    .github-repository {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      border: 1px solid #7a828e;
+      border-radius: 5px;
+      padding: 20px;
+
+      .github-repo {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .header {
+          font-size: 25px;
+          font-weight: 500;
+        }
+      }
+      
+      .github-repo-info {
+        display: flex;
+        gap: 1rem;
+        margin-top: auto;
+        justify-content: space-between;
+
+        .container {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+
+        div {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+
+        .img {
+          a {
+            img {
+              width: 2.5rem;
+              height: 2.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
