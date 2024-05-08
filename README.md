@@ -8,3 +8,4 @@ based on https://www.freecodecamp.org/news/build-a-todo-app-from-scratch-with-re
 
 ### Project 2 - Github Profile Viewer
 based on https://devchallenges.io/challenge/github-profile
+web link : https://react-61a63.web.app/
