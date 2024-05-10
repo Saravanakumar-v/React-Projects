@@ -10,3 +10,8 @@ based on https://www.freecodecamp.org/news/build-a-todo-app-from-scratch-with-re
 based on https://devchallenges.io/challenge/github-profile
 
 web link : https://react-61a63.web.app/
+
+### Project 3 - Responsive Landing Page
+based on https://devchallenges.io/challenge/simple-hompage-alarado
+
+web lin : https://reaxt-landing-pxxx.web.app/
