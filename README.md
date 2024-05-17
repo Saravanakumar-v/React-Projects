@@ -16,3 +16,11 @@ based on https://devchallenges.io/challenge/github-profile
 
 ### Project 3 - [Responsive Landing Page](https://reaxt-landing-pxxx.web.app/) 🔗
 based on https://devchallenges.io/challenge/simple-hompage-alarado
+
+### Project 4 - [Multi-step Registration form]() 🔗
+Implemented React router, children
+
+	npm install react-router-dom
+ 	npm install react-hook-form
+
+  Pending: Need to implement useContext and React Hook Form
