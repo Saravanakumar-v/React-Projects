@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    font-family: "Reddit Sans", sans-serif;
+}
+
+.user-header-indices {
+    display: flex;
+    align-items: center;
+}
+
+.indices {
+    padding: 10px;
+    display: flex;
+    font-family: "Reddit Sans", sans-serif;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.indices-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    top: auto;
+    
+
+    .value {
+        font-weight: bold;
+    }
+}
+
+.dragger_index {
+    display: flex;
+    align-self: center;
+    gap: 10px;
+    font-family: "Reddit Sans", sans-serif;
+}
+
+
+.selector {
+    font-family: "Reddit Sans", sans-serif;
+    border-top: 1px solid lightgray;
+    margin-top: 5px;
+
+    h4 {
+        margin: 10px;
+        margin-left: 10px;
+    }
+}
+
+.select-indices {
+    display: flex;
+    font-family: "Reddit Sans", sans-serif;
+    gap: 10px;
+}
+
+.marquee {
+    overflow: hidden;
+}
+
+.menu {
+    padding: 10px;
+}
